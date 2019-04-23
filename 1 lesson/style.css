@@ -1,0 +1,94 @@
+.main
+{
+    display: inline-block;
+    font-size: 50px;
+    width: 220px;
+    border: 3px solid black;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    text-align: center;
+
+}
+
+.holes{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    bottom: 10px;
+    right: 12px;
+}
+
+.right
+{
+    display: inline-block;
+    font-size: 20px;
+    width: 75px;
+    height: 58px;
+    border: 3px solid black;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    position: absolute;
+    left: 230px;
+
+}
+
+.number {
+    font-size: 35px;
+    padding-left: 10px;
+
+}
+
+.letters{
+    font-size: 15px;
+    position: relative;
+    left: 5px;
+    bottom: 5px;
+
+
+}
+
+.right-hole{
+    position: relative;
+    left: 30px;
+    bottom: 22px;
+}
+
+.flag
+{
+    position: absolute;
+    top: 43px;
+    left: 270px;
+}
+
+.flag-color
+{
+    display: inline-block;
+    border: 1px solid black;
+    width: 25px;
+    height: 3px;
+
+}
+.white{
+    background-color: white;
+
+}
+
+.blue{
+    background-color: blue;
+    position: relative;
+    right: 31px;
+    top: 4px;
+    border-top:none;
+}
+
+.red{
+    background-color: red;
+    position: relative;
+    right: 62px;
+    top: 8px;
+    border-top:none;
+
+}
