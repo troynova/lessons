@@ -11,15 +11,19 @@
 
 }
 
-.holes{
+.holes {
     display: inline-block;
     width: 5px;
     height: 5px;
     border: 1px solid black;
     border-radius: 50%;
-    position: relative;
-    bottom: 4mm;
-    right: 3mm;
+}
+
+.left-hole
+{
+    position: absolute;
+    left: 15px;
+    top: 35px;
 }
 
 .right
@@ -44,17 +48,17 @@
 
 .letters{
     font-size: 15px;
-    position: relative;
+    position: absolute;
     left: 5px;
-    bottom: 5px;
+    bottom: 1px;
 
 
 }
 
 .right-hole{
-    position: relative;
-    left: 8mm;
-    bottom: 6mm;
+    position: absolute;
+    left: 65px;
+    bottom: 25px;
 }
 
 .flag
